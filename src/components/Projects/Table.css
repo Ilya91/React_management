@@ -1,0 +1,79 @@
+.table-view{
+    width:100%;
+    table-layout: fixed;
+}
+.project-iterator > table{
+    width:100%;
+    table-layout: fixed;
+}
+.project-iterator > table td{
+    border:1px solid #C8C8C9;
+}
+.project-iterator > table td:last-child{
+    border-right:none;
+}
+.table-view thead{
+    background-color: #E6E7E9;
+    color: #969088;
+    font-size: 13px;
+}
+.table-view > thead td{
+    padding:5px;
+    border:1px solid #C8C8C9;
+}
+.table-view > thead td:first-child{
+}
+.first-cell{
+    width:40px;
+}
+.title-cell{
+    width:50%;
+}
+.third-cell, .four-cell{
+    width:120px;
+}
+.fifth-cell{
+    width:50px;
+}
+.six-cell{
+    width:100px;
+}
+.seven-cell{
+    width:200px;
+}
+.project{
+    background-color: #F3F3F3;
+    color: #969088;
+    font-size: 14px;
+    font-weight:600;
+}
+.project td{
+    padding:5px;
+}
+.task td{
+    padding:3px 5px;
+    color: #7e7870;
+    font-size: 13px;
+}
+.first-cell-task{
+    background-color: #E6E7E9;
+    text-align: right;
+    padding-right:3px;
+}
+.task-table-title{
+    padding:2px 0;
+    border-left:1px solid #d6d6d6;
+    margin-left:10px;
+    height:100%;
+}
+.task-table-title span{
+    margin-right:5px;
+    color: #d6d6d6;
+    position: relative;
+    left:-1px;
+}
+.table-users{
+    list-style: none;
+    margin:0;
+    padding:0;
+}

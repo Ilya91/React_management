@@ -1,0 +1,12 @@
+.leftTabs{
+    float: right;
+    position: absolute;
+    top:22px;
+    right:0;
+}
+.leftHeader{
+    float: left;
+}
+.leftFilters{
+    margin-top:50px;
+}

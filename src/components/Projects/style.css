@@ -1,0 +1,121 @@
+.projects .box-body{
+    padding-top:0;
+    margin-left:20px;
+    padding-left: 0;
+}
+.projects .box-body h3{
+     margin-top:10px;
+    margin-bottom:0;
+ }
+.projects .taskPanel{
+    margin:10px 10px;
+}
+.projects .taskPanel .form-group{
+    margin-bottom:0;
+}
+.react-tabs .react-tabs__tab-list{
+    border: none;
+    margin-left:20px;
+    margin-bottom:0;
+}
+.react-tabs .react-tabs__tab-panel{
+
+}
+.react-tabs .react-tabs__tab-list .react-tabs__tab--selected{
+    border-bottom: 2px solid #4678AB;
+    padding-bottom:7px;
+}
+.react-tabs__tab-list .react-tabs__tab{
+    border: none;
+    padding:0;
+    margin-right:24px;
+    color: #A49F8B;
+    font-size:12px;
+    font-weight:600;
+}
+.project-filters{
+    background-color: #F5F8FD;
+    border-bottom:1px solid #E3E3E4;
+    padding:10px 0 10px 20px;
+}
+.project-filters ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    padding-bottom:30px;
+}
+.project-filters ul li{
+    float: left;
+    padding-left:0;
+    font-weight:600;
+    color: #659FD5;
+    font-size: 12px;
+}
+
+/* collapsible accordion */
+.Collapsible__trigger{
+    display: block;
+    background-color: #F3F3F5;
+    border-bottom:1px solid #E3E3E4;
+    padding: 1px 10px;
+}
+.Collapsible__trigger i{
+    font-size:12px;
+    color: #8F9298;
+}
+.Collapsible__trigger p{
+    margin:0;
+}
+.Collapsible__trigger p span{
+    margin-left:2px;
+    color: #8F9298;
+    font-size:12px;
+}
+.project-filters .Select-control{
+    background:none;
+}
+.project-filters .Select-input{
+    width:155px;
+}
+.project-filters li:last-child .Select-input{
+    width:200px;
+}
+.project-filters .Select-arrow-zone{
+    display: none;
+}
+.project-filters .Select-value-label{
+    cursor: pointer;
+    padding:3px 15px;
+    background-color: #F5F8FD;
+    border-radius:15px;
+}
+.project-filters .Select-value-label:hover{
+     background-color:#DFE6F0;
+}
+
+.project-filters .Select-value-label span{
+    color: #659FD5;
+    font-weight:600;
+    font-size: 13px;
+}
+
+.project-filters .Select .Select-menu-outer{
+    width: 130px !important;
+    position: absolute;
+    left:0;
+    top: 30px;
+}
+.panel-project tr:last-child > td{
+    padding:5px 0 5px 20px;
+}
+table.form-description-project{
+    width:100%;
+    border: 1px solid #E3E3E4;
+}
+
+.form-description-project .project-add-description textarea{
+    border: none;
+}
+.task-description .form-description-project td{
+    padding:10px 20px 10px 20px;
+}

@@ -1,0 +1,10 @@
+{
+    "apiPrefix": "http://127.0.0.1:3000",
+    "serverPort": "3000",
+    "db":{
+        "name": "tasks",
+        "host": "127.0.0.1",
+        "port": 27017
+    },
+    "secret": "asdfasdtat5t54terg90regjdf[gjdsfg90j5"
+}
