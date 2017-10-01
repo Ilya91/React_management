@@ -1,12 +1,12 @@
-# README #
+# TASK MANAGEMENT #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+https://Miron007@bitbucket.org/Miron007/task-management.git
 
-### What is this repository for? ###
+### STEPS ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+1. npm install
+2. npm start
+3. see project on 
 
 ### How do I get set up? ###
 

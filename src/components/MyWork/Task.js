@@ -10,6 +10,8 @@ import { getUserForTask } from '../functions'
 import Moment from 'react-moment'
 import moment from 'moment'
 
+import PropTypes from 'prop-types'
+
 const options = [
     { value: 1, label: "Активна", color: '#2196F3', border: 'none'},
     { value: 2, label: 'Завершена', color: '#8CC34B', border: 'none' },
@@ -297,6 +299,11 @@ class Task extends Component {
         )
     }
 }
+
+Task.propTypes = {
+    title: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+};
 
 export default connect((state) => ({
     subTasks: state.subTasks,
