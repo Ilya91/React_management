@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Moment from 'react-moment'
 import { changeSubTaskDetails } from '../../AC'
 import {connect} from 'react-redux'
+import PropTypes from 'prop-types'
 
 class SubTaskItem extends Component {
     state = {
@@ -112,4 +112,11 @@ class SubTaskItem extends Component {
         }
     }
 }
+
+SubTaskItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired
+}
+
+
 export default connect(null, { changeSubTaskDetails })(SubTaskItem)

@@ -5,25 +5,9 @@ https://Miron007@bitbucket.org/Miron007/task-management.git
 ### STEPS ###
 
 1. npm install
-2. npm start
-3. see project on 
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+2. создать базу данных mongodb, имя базы tasks, коллекции: projects, tasks, subtasks, users
+3. npm start
+4. смотреть проект на http://localhost:8090/
+5. страница регистрации юзера http://localhost:8090/signup (лучше сразу зарегестрировать несколько юзеров, 
+чтобы потом можно было ими манипулировать в задачах и проектах)
+6. для того чтобы включить redux-logger, нужно раскомментировать в папке /store мидэлвару logger (опционально)

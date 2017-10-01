@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Moment from 'react-moment';
+import Moment from 'react-moment'
+import PropTypes from 'prop-types'
 
 class TaskItem extends Component {
 
@@ -31,4 +32,11 @@ class TaskItem extends Component {
         }
     }
 }
+
+TaskItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired
+}
+
 export default TaskItem

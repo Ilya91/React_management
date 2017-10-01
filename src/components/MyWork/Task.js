@@ -303,7 +303,9 @@ class Task extends Component {
 Task.propTypes = {
     title: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
-};
+    date: PropTypes.string,
+    status: PropTypes.object
+}
 
 export default connect((state) => ({
     subTasks: state.subTasks,

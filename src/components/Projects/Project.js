@@ -46,14 +46,12 @@ class Project extends Component {
         this.setState({
             selected: val
         })
-        //console.log("Selected: " + JSON.stringify(val))
     }
 
     logChangeUser = (val) => {
         this.setState({
             selectedUser: val
         })
-        //console.log("Selected: " + JSON.stringify(val))
     }
 
     renderValue(option) {
