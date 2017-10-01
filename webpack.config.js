@@ -22,8 +22,11 @@ module.exports = {
             },
             {
                 test: /\.css/,
-                loaders: ['style-loader', 'css-loader', 'autoprefixer-loader'],
+                loaders: ['style-loader', 'css-loader', "postcss-loader"],
             }
         ]
+    },
+    node: {
+        fs: "empty"
     }
 }

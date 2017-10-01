@@ -32,12 +32,12 @@
     "webpack-dev-server": "^2.8.2"
   },
   "dependencies": {
-    "autoprefixer-loader": "^3.2.0",
     "axios": "^0.16.2",
     "bcrypt-nodejs": "0.0.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.18.1",
     "bootstrap-select": "^1.12.4",
+    "browserslist": "^2.4.0",
     "classnames": "^2.2.5",
     "concurrently": "^3.5.0",
     "cors": "^2.8.4",
@@ -51,6 +51,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^3.0.0",
     "passport-local": "^1.0.0",
+    "postcss-loader": "^2.0.6",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",

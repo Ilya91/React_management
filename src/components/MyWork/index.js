@@ -7,6 +7,8 @@ import { connect } from 'react-redux'
 import Moment from 'react-moment';
 import moment from 'moment'
 
+var autoprefixer = require('autoprefixer')
+
 import { setActiveTask, loadAllTasks } from '../../AC'
 import TaskItem from './TaskItem'
 
@@ -64,6 +66,8 @@ class MyWork extends Component {
         const startNextWeek = moment().add(1, 'weeks').startOf('isoWeek')
         const endNextWeek = moment().add(1, 'weeks').endOf('isoWeek')
         const afterNextWeek = moment().add(1, 'weeks').endOf('isoWeek')
+        /*var info = autoprefixer().info();
+        console.log(info);*/
         return(
                     <div>
                         <section className={ activeTask ? "col-lg-6" : "col-lg-8"}>
