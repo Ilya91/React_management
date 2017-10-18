@@ -1,0 +1,4 @@
+{"_id":{"$oid":"59c8b34c0a119328078c6fa9"},"email":"webmaster.1991@mail.ru","password":"$2a$10$qkkAICLYA.shjhThPRD3suQzftXnFt.mW5J/BX33xtpVp2btP4iYC","login":"Mamon","__v":0}
+{"_id":{"$oid":"59d201aef2ba243b705ada56"},"email":"mail5@mail.ru","password":"$2a$10$88vmL89AtpnYRDFv.J8fPu2Xgue5V4XSZKPDCO5gIJ7yPBD6hIXWu","login":"Johan","__v":0}
+{"_id":{"$oid":"59e71d468aa1614792bf20eb"},"email":"mail@mail.ru","password":"$2a$10$fwriauf6aK74MsDvRJtKUenHtQxZjnjXSdiQS9JvQfI6HllILwyga","login":"Jason Bourne","__v":0}
+{"_id":{"$oid":"59e71d598aa1614792bf20ec"},"email":"mail2@mail.ru","password":"$2a$10$CjArEIRAjufVc3np3ZAzqO.Yja2ACe6NnpztDIJTGkIq6a57dUgM6","login":"Klaud","__v":0}

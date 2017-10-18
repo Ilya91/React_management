@@ -5,7 +5,7 @@ https://Miron007@bitbucket.org/Miron007/task-management.git
 ### STEPS ###
 
 1. npm install
-2. создать базу данных mongodb, имя базы tasks, коллекции: projects, tasks, subtasks, users
+2. имя базы - tasks, импортировать коллекции из папки /collections, коллекции: projects, subtasks, tasks, users
 3. npm start
 4. смотреть проект на http://0.0.0.0:8090/
 5. страница регистрации юзера http://0.0.0.0:8090/signup (лучше сразу зарегестрировать несколько юзеров, 
